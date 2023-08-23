@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/nats-io/nats-server/v2/server"
-	"github.com/nats-io/nats.go"
+	"github.com/ybm2dyd/nats.go"
 	"github.com/nats-io/nuid"
 
 	natsserver "github.com/nats-io/nats-server/v2/test"

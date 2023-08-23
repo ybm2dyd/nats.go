@@ -6,7 +6,7 @@ API can be found [here](jetstream/README.md)
 ## JetStream Basic Usage
 
 ```go
-import "github.com/nats-io/nats.go"
+import "github.com/ybm2dyd/nats.go"
 
 // Connect to NATS
 nc, _ := nats.Connect(nats.DefaultURL)
@@ -50,7 +50,7 @@ sub.Drain()
 ## JetStream Basic Management
 
 ```go
-import "github.com/nats-io/nats.go"
+import "github.com/ybm2dyd/nats.go"
 
 // Connect to NATS
 nc, _ := nats.Connect(nats.DefaultURL)

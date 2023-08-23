@@ -70,8 +70,8 @@ import (
     "strconv"
     "time"
 
-    "github.com/nats-io/nats.go"
-    "github.com/nats-io/nats.go/jetstream"
+    "github.com/ybm2dyd/nats.go"
+    "github.com/ybm2dyd/nats.go/jetstream"
 )
 
 func main() {
@@ -588,4 +588,4 @@ options for setting headers.
 
 ## Examples
 
-You can find more examples of `jetstream` usage [here](https://github.com/nats-io/nats.go/tree/main/examples/jetstream).
+You can find more examples of `jetstream` usage [here](https://github.com/ybm2dyd/nats.go/tree/main/examples/jetstream).

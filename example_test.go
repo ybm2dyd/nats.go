@@ -20,7 +20,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/ybm2dyd/nats.go"
 )
 
 // Shows different ways to create a Conn.

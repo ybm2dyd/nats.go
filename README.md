@@ -5,11 +5,11 @@ A [Go](http://golang.org) client for the [NATS messaging system](https://nats.io
 
 [License-Url]: https://www.apache.org/licenses/LICENSE-2.0
 [License-Image]: https://img.shields.io/badge/License-Apache2-blue.svg
-[ReportCard-Url]: https://goreportcard.com/report/github.com/nats-io/nats.go
-[ReportCard-Image]: https://goreportcard.com/badge/github.com/nats-io/nats.go
+[ReportCard-Url]: https://goreportcard.com/report/github.com/ybm2dyd/nats.go
+[ReportCard-Image]: https://goreportcard.com/badge/github.com/ybm2dyd/nats.go
 [Build-Status-Url]: https://travis-ci.com/github/nats-io/nats.go
 [Build-Status-Image]: https://travis-ci.com/nats-io/nats.go.svg?branch=main
-[GoDoc-Url]: https://pkg.go.dev/github.com/nats-io/nats.go
+[GoDoc-Url]: https://pkg.go.dev/github.com/ybm2dyd/nats.go
 [GoDoc-Image]: https://img.shields.io/badge/GoDoc-reference-007d9c
 [Coverage-Url]: https://coveralls.io/r/nats-io/nats.go?branch=main
 [Coverage-image]: https://coveralls.io/repos/github/nats-io/nats.go/badge.svg?branch=main
@@ -18,7 +18,7 @@ A [Go](http://golang.org) client for the [NATS messaging system](https://nats.io
 
 ```bash
 # Go client
-go get github.com/nats-io/nats.go/
+go get github.com/ybm2dyd/nats.go/
 
 # Server
 go get github.com/nats-io/nats-server
@@ -28,8 +28,8 @@ When using or transitioning to Go modules support:
 
 ```bash
 # Go client latest or explicit version
-go get github.com/nats-io/nats.go/@latest
-go get github.com/nats-io/nats.go/@v1.28.0
+go get github.com/ybm2dyd/nats.go/@latest
+go get github.com/ybm2dyd/nats.go/@v1.28.0
 
 # For latest NATS Server, add /v2 at the end
 go get github.com/nats-io/nats-server/v2
@@ -41,7 +41,7 @@ go get github.com/nats-io/nats-server/v2
 ## Basic Usage
 
 ```go
-import "github.com/nats-io/nats.go"
+import "github.com/ybm2dyd/nats.go"
 
 // Connect to a server
 nc, _ := nats.Connect(nats.DefaultURL)

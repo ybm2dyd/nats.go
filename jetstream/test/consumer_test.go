@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/jetstream"
+	"github.com/ybm2dyd/nats.go"
+	"github.com/ybm2dyd/nats.go/jetstream"
 )
 
 func TestConsumerInfo(t *testing.T) {
